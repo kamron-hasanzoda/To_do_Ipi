@@ -1,0 +1,53 @@
+.cont button {
+    all: unset;
+    background-color: blue;
+    color: white;
+    text-align: center;
+}
+
+.cont input,
+.cont button {
+    border-radius: 15px;
+    border: 2px solid blue;
+    height: 20px;
+    padding: 10px 20px;
+}
+
+.item {
+    display: flex;
+    flex-direction: column;
+    width: 250px;
+    padding: 10px 15px;
+    border-radius: 15px;
+    background-color: blue;
+}
+
+.item img {
+    width: 30px;
+    height: 30px;
+}
+
+.two {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 30px;
+}
+
+.container {
+    width: 100%;
+    max-width: 1920px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 30px;
+}
+
+.item {
+    background-color: bisque;
+}
+
+.active {
+    text-decoration: line-through;
+}
